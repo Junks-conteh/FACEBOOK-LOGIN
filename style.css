@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(230, 230, 230);
+}
+.header-1{
+    list-style: none;
+    background-color:rgb(22, 14, 95) ;
+    height: 50px;
+    color: #fff;
+    padding-top: 25px;
+    
+    
+}
+.header-1 a{
+    text-decoration: none;
+    margin-left: 300px;
+    color: #fff;
+    font-weight: 700;
+    font-size: larger;
+    /* margin-top: 30px; */
+    padding: 20px;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.formbox{
+    background-color: #fff;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+}
+.container h4{
+    padding-bottom: 20px;
+    font-size: larger;
+    font-weight: 800;
+    margin-top: 20px;
+}
+.container hr{
+    width: 300px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+.container .inp1{
+    width: 330px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    outline-color:rgb(22, 14, 95) ;
+    
+}
+.container .inp2{
+    width: 330px;
+    height: 40px;
+    padding: 10px;
+    outline-color: rgb(22, 14, 95);
+    
+    
+}
+.container .btn1{
+    width: 330px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: rgb(22, 14, 95);
+    color: #fff;
+    border: none;
+}
+.container h5{
+    margin-top: 30px;
+
+}
+.container .btn2{
+    width: 250px;
+    height:40px ;
+    /* margin-top: 40px; */
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+.container a{
+    list-style: none;
+    text-decoration: none;
+    font-size: small;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 100px;
+    
+    
+}
+@media(max-width:600px){
+    .formbox{
+        margin-top:30px ;
+    }
+    .container h4{
+       display: none;
+    }
+    .header-1 a{
+       /* display: none; */
+        
+    }
+    .header-1{
+        list-style: none;
+        background-color:rgb(22, 14, 95) ;
+        height: 50px;
+        color: #fff;
+        padding-top: 25px;
+        padding-right: 100px;
+        text-align: center;
+        
+        
+    }
+    .header-1 a{
+        text-decoration: none;
+        margin-left: 300px;
+        color: #fff;
+        font-weight: 700;
+        font-size: larger;
+        /* margin-top: 30px; */
+        padding: 20px;
+    }
+    
+    .container{
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* margin-left: 100px; */
+        
+    }
+    .formbox{
+        background-color: #fff;
+        width: 300px;
+        height: 270px;
+        text-align: center;
+        border-radius: 5px;
+
+    }
+    .container h4{
+        padding-bottom: 20px;
+        font-size: larger;
+        font-weight: 800;
+        margin-top: 20px;
+    }
+    .container hr{
+        width: 300px;
+        margin-left: 150px;
+        margin-bottom: 10px;
+    }
+    .container .inp1{
+        width: 270px;
+        height: 40px;
+        padding: 10px;
+        margin-bottom: 20px;
+        outline-color:rgb(22, 14, 95) ;
+        margin-top: 20px;
+        border-radius: 5px;
+        border: 1px solid gray;
+        
+    }
+    .container .inp2{
+        width: 270px;
+        height: 40px;
+        padding: 10px;
+        outline-color: rgb(22, 14, 95);
+        border-radius: 5px;
+        border: 1px solid gray;
+        
+        
+    }
+    .container .btn1{
+        width: 270px;
+        height: 40px;
+        margin-top: 20px;
+        background-color: rgb(22, 14, 95);
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+    }
+    .container h5{
+       display: none;
+    
+    }
+    .container hr{
+        margin-top: 20px;
+        margin-left: -30px;
+        margin-left: 10px;
+        width: 270px;
+    }
+    .container .btn2{
+        width: 150px;
+        height:40px ;
+        /* margin-top: 40px; */
+        margin-left: 30px;
+        margin-right: 30px;
+        background-color: green;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+    .container a{
+      display: none;
+        
+        
+    }
+}
